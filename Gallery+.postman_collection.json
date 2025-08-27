@@ -1,11 +1,40 @@
 {
 	"info": {
-		"_postman_id": "876e8a75-afd4-411c-87d5-3a5390ea7d6e",
+		"_postman_id": "5f56fbfd-b2da-49f5-8ca2-f9e4d837bf9c",
 		"name": "Gallery+",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "18825863"
+		"_exporter_id": "19858323"
 	},
 	"item": [
+		{
+			"name": "Health",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/health",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"health"
+					],
+					"query": [
+						{
+							"key": "albumId",
+							"value": "089d853d-11bd-44df-bc57-5ddf9b5d6c45",
+							"disabled": true
+						},
+						{
+							"key": "q",
+							"value": "fo",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
 		{
 			"name": "Fetch Photos",
 			"request": {
@@ -61,7 +90,7 @@
 			"response": []
 		},
 		{
-			"name": "Get Photo by ID Copy",
+			"name": "Update Photo",
 			"request": {
 				"method": "PATCH",
 				"header": [],
@@ -333,6 +362,13 @@
 				}
 			},
 			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "http://localhost:5799",
+			"type": "default"
 		}
 	]
 }
