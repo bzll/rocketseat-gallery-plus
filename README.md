@@ -21,9 +21,15 @@ Uma galeria de imagens moderna construída com React, Vite e Fastify.
 - [Vite](https://vitejs.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Tailwind Variants](https://www.tailwind-variants.com/)
+- [Tailwind Animate CSS](https://www.npmjs.com/package/tw-animate-css)
 - [Fastify](https://fastify.dev/)
 - [SWC](https://swc.rs/) (compilação rápida)
 - [ESLint](https://eslint.org/) + [TypeScript ESLint](https://typescript-eslint.io/)
+- [React Hook Form](https://react-hook-form.com/)
+- [Zod](https://zod.dev/)
+- [React Query](https://react-query.tanstack.com/)
+- [Radix UI](https://www.radix-ui.com/)
 
 ## Instalação
 
