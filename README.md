@@ -30,6 +30,7 @@ Uma galeria de imagens moderna construída com React, Vite e Fastify.
 - [Zod](https://zod.dev/)
 - [React Query](https://react-query.tanstack.com/)
 - [Radix UI](https://www.radix-ui.com/)
+- [React Router](https://reactrouter.com/)
 
 ## Instalação
 
